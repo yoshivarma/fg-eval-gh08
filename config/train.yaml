@@ -1,5 +1,5 @@
 # Judge adapter training configuration
-base_model: mistralai/Ministral-8B-Instruct-2410
+base_model: mistralai/Ministral-3-8B-Instruct-2512-BF16
 method: qlora
 quantization: nf4
 tasks:
