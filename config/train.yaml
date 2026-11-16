@@ -1,0 +1,7 @@
+# Judge adapter training configuration
+base_model: mistralai/Ministral-8B-Instruct-2410
+method: qlora
+quantization: nf4
+tasks:
+  - faithfulness
+  - answer_relevance
